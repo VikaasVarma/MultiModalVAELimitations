@@ -1,0 +1,24 @@
+name: mm-bench
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - einops
+  - jupyter
+  - pandas=1.5.3
+  - pytest
+  - pytest-cov
+  - python=3.9
+  - pytorch=1.13.1
+  - torchvision
+  - python-box
+  - pip
+  - pip:
+      - colorlog
+      - h5py
+      - invoke
+      - pre-commit
+      - gdown
+      - transformers

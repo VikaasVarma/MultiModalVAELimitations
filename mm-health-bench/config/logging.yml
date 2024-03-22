@@ -1,0 +1,2 @@
+level: debug # ['info', 'debug']
+format: "%(log_color)s[%(asctime)s][%(levelname)s][%(module)s][%(funcName)s:%(lineno)d]%(reset)s %(message)s"
